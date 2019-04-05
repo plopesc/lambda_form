@@ -1,0 +1,9 @@
+
+lambda_form.lambda_form:
+  path: '/lambda-form'
+  defaults:
+    _form: '\Drupal\lambda_form\Form\LambdaForm'
+    _title: 'Lambda form integration example'
+  requirements:
+    _access: 'TRUE'
+  

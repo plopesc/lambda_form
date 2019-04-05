@@ -1,0 +1,14 @@
+{
+  "name": "drupal/lambda_form",
+  "type": "drupal-module",
+  "description": "Lambda form example integration",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/plopesc/lambda_form",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://github.com/plopesc/lambda_form/issues",
+    "source": "https://github.com/plopesc/lambda_form"
+  },
+  "require": { }
+}

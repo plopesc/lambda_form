@@ -1,0 +1,5 @@
+form-handler:
+  js:
+    js/form-handler.js: {}
+  dependencies:
+    - core/jquery.once
