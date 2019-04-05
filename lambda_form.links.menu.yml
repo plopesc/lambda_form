@@ -1,0 +1,7 @@
+lambda_form.lambda_form_config:
+  title: 'Lambda Form'
+  route_name: lambda_form.lambda_form_config
+  description: 'A description for the menu entry'
+  parent: system.admin_config_development
+  weight: 99
+

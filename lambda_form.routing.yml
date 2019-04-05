@@ -7,3 +7,13 @@ lambda_form.lambda_form:
   requirements:
     _access: 'TRUE'
   
+
+lambda_form.lambda_form_config:
+  path: '/admin/config/development/lambda_form'
+  defaults:
+    _form: '\Drupal\lambda_form\Form\SettingsForm'
+    _title: 'Lambda form settings'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE

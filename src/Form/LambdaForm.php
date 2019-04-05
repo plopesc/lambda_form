@@ -52,7 +52,7 @@ class LambdaForm extends FormBase {
       '#value' => $this->t('Submit'),
     ];
 
-    $form['#action'] = 'https://dz6mvfxdck.execute-api.us-east-1.amazonaws.com/dev/email/send';
+    $form['#action'] = $this->config('lambda_form.settings')->get('endpoint');
     $form['#attached']['library'][] = 'lambda_form/form-handler';
 
     return $form;
